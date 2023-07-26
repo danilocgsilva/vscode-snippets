@@ -44,8 +44,8 @@
 			"describe('${1:Describe}', () => {",
 			"  test('${2:test description}', () => {",
 			"",
-			"  }",
-			"}"
+			"  })",
+			"})"
 
 		],
 		"description": "Template for Jest file"
