@@ -25,5 +25,15 @@
 			"{",
 			"}"
 		]
+	},
+	"New php file": {
+		"prefix": ["phpf"],
+		"body": [
+			"<?php",
+			"",
+			"declare(strict_types=1);",
+			""
+		],
+		"description": "PHP tag and declare strict types 1"
 	}
 }
