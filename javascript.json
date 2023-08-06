@@ -49,5 +49,14 @@
 
 		],
 		"description": "Template for Jest file"
+	},
+	"Case term": {
+		"prefix": "ct",
+		"body": [ 
+			"case \"$1\":",
+			"  $2",
+			"  break;"
+		],
+		"description": "Add a term for switch case"
 	}
 }
