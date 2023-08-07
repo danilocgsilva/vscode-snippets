@@ -26,14 +26,24 @@
 			"}"
 		]
 	},
-	"New php file": {
-		"prefix": ["phpf"],
+	"Getter method": {
+		"prefix": ["get"],
 		"body": [
-			"<?php",
+			"public function get${1:Name}(): ${3:?string}",
+			"{",
+			"	return $$this->${2:name};",
+			"}"
+		]
+	},
+	"Setter method": {
+		"prefix": ["set"],
+		"body": [
+			"public function set${1:Name}(${3:string} $${2:name}): self",
+			"{",
+			"    $$this->${2:name} = $${2:name};",
 			"",
-			"declare(strict_types=1);",
-			""
-		],
-		"description": "PHP tag and declare strict types 1"
+			"	return $$this;",
+			"}"
+		]
 	}
 }
