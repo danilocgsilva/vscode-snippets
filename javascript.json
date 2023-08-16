@@ -58,5 +58,14 @@
 			"  break;"
 		],
 		"description": "Add a term for switch case"
+	},
+	"Setter": {
+		"prefix": ["setter"],
+		"body": [
+			"set ${1:propertyName}(${1:propertyName}) {",
+			"this.#${1:propertyName} = ${1:propertyName}",
+			"}"
+		],
+		"description": "Creates a setter"
 	}
 }
