@@ -45,5 +45,18 @@
 			"	return $$this;",
 			"}"
 		]
+	},
+	"Symfony WebTest": {
+		"prefix": ["sywtest"],
+		"body": [
+			"declare(strict_types=1);",
+			"",
+			"namespace App\Tests\Controller;"
+			"",
+			"use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;",
+			"",
+			"class ${1:YourClass}Test extends WebTestCase",
+			"}"
+		]
 	}
 }
