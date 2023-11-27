@@ -21,7 +21,7 @@
 		"prefix": ["symac"],
 		"body": [
 			"#[Route('${1:/route/path}', name: '${2:route_name}')]",
-			"public function ${3:controllerAction}(${4:Request $request}): Response",
+			"public function ${3:controllerAction}(${4:Request $$request}): Response",
 			"{",
 			"}"
 		]
