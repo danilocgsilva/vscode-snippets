@@ -80,7 +80,7 @@
 			"		$$builder",
 			"			->add('name', TextType::class)",
 			"			->add('submit', SubmitType::class, [",
-			"				'label' => $options['submit_label']",
+			"				'label' => $$options['submit_label']",
 			"			])",
 			"		;",
 			"	}",
