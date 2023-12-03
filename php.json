@@ -106,7 +106,7 @@
 		"prefix": ["srtwig"]
 		"body": [
 			"return $$this->render('${0:twigname}.html.twig', [",
-			"	'form' => $form,",
+			"	'form' => $$form,",
 			"]);"
 		]
 	}
