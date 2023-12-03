@@ -101,5 +101,13 @@
 			"	}",
 			"}"
 		]
+	},
+	"Symfony twig return from a Controller": {
+		"prefix": ["srtwig"]
+		"body": [
+			"return $this->render('${0:twigname}.html.twig', [",
+			"	'form' => $form,",
+			"]);"
+		]
 	}
 }
