@@ -80,7 +80,7 @@
 	"VS Code snipets template": {
 		"prefix": ["vssni"],
 		"body": [
-			"${0:Snippet Name}: {"
+			"\"${0:Snippet Name}\": {"
 			"    \"prefix\": [\"${1:prefix}\"]",
 			"    \"body\": []",
 			"}"
