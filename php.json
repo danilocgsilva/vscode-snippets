@@ -107,5 +107,12 @@
 			"	'form' => $$form,",
 			"]);"
 		]
+	},
+	"Symfony process form": {
+		"prefix": ["symformsubval"],
+		"body": [
+			"if ($$form->isSubmitted() && $$form->isValid()) {",
+			"}"
+		]
 	}
 }
