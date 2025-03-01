@@ -57,4 +57,13 @@
 		],
 		"description": "Button"
 	},
+	"Tailwind anchor looking like a button": {
+		"prefix": "twabtn",
+		"body": [
+			"<a href=\"#\" class=\"inline-flex items-center px-6 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-700\">",
+			"	${1:Click Me!}",
+			"</a>"
+		],
+		"description": "Anchor button"
+	},
 }
